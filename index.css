@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Outfit", "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-tennis-green: #c2fb34;
+  --color-tennis-dark: #151518;
+  --color-tennis-surface: #1e1e24;
+}
+
+/* Custom smooth transitions for tab changes and buttons */
+.ios-transition {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Custom micro scrollbar for tables */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* iOS active tap effect */
+.tap-highlight-none {
+  -webkit-tap-highlight-color: transparent;
+}

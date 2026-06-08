@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="512" height="512" rx="128" fill="#000000" />
+  
+  <!-- Outer Glow Grid -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#a3e635" stroke-width="4" stroke-opacity="0.15" />
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#a3e635" stroke-width="2" stroke-opacity="0.08" />
+
+  <!-- Tennis Ball Core -->
+  <circle cx="256" cy="256" r="150" fill="#c2fb34" />
+
+  <!-- Tennis Ball Seams (White/Subtle Grey curved lines) -->
+  <path d="M 150 150 A 150 150 0 0 1 362 362" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-dasharray="1 1" opacity="0.9" />
+  <path d="M 150 150 A 150 150 0 0 1 362 362" fill="none" stroke="#e2e8f0" stroke-width="8" stroke-linecap="round" />
+  
+  <path d="M 362 150 A 150 150 0 0 0 150 362" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-dasharray="1 1" opacity="0.9" />
+  <path d="M 362 150 A 150 150 0 0 0 150 362" fill="none" stroke="#e2e8f0" stroke-width="8" stroke-linecap="round" />
+
+  <!-- Golden Crown on Top -->
+  <path d="M 206 140 L 226 190 L 256 160 L 286 190 L 306 140 L 290 205 L 222 205 Z" fill="#fbbf24" stroke="#d97706" stroke-width="3" stroke-linejoin="round" />
+  <circle cx="206" cy="135" r="4" fill="#fbbf24" />
+  <circle cx="256" cy="154" r="4" fill="#fbbf24" />
+  <circle cx="306" cy="135" r="4" fill="#fbbf24" />
+
+  <!-- Ribbon/Banner with "BỊP" -->
+  <rect x="180" y="270" width="152" height="46" rx="8" fill="#1e293b" stroke="#fbbf24" stroke-width="3" />
+  <text x="256" y="302" font-family="'Inter', -apple-system, sans-serif" font-weight="900" font-size="24" fill="#fbbf24" text-anchor="middle" letter-spacing="2">BỊP 2026</text>
+
+  <!-- Crown Stars -->
+  <polygon points="120,200 123,208 132,209 125,215 127,224 120,219 113,224 115,215 108,209 117,208" fill="#fbbf24" />
+  <polygon points="392,200 395,208 404,209 397,215 399,224 392,219 385,224 387,215 380,209 389,208" fill="#fbbf24" />
+</svg>
