@@ -1,0 +1,6 @@
+{
+  "name": "vua-tennis-bip",
+  "description": "Giai dau tennis don noi bo tranh ngoi Vua Tennis Bip 2026.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
